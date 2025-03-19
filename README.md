@@ -38,7 +38,6 @@ O sistema gera assinaturas personalizadas com base na identidade visual de cada 
 │-- 📄 avatar_editar.php  # Permite edição e personalização do avatar
 │-- 📄 manutencao.php  # Página para adicionar novas empresas, logos e avatares
 │-- 📄 assinatura.php  # Gerador de assinaturas de e-mail
-│-- 📄 config_empresas.php  # Lista de empresas e avatares
 │-- 📄 inicio.php  # Página inicial do sistema (não enviada, mas referenciada)
 │-- 📁 assets/logos  # Logos das empresas
 │-- 📁 assets/avatares  # Avatares das empresas
