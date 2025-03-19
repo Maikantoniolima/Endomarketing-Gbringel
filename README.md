@@ -59,5 +59,5 @@ A página `manutencao.php` é utilizada para adicionar novas empresas, logos e a
 
 ---
 📧 **Autor:** Maik Lima 
-🔗 **GitHub:** [Seu Perfil]([https://github.com/seuusuario](https://github.com/Maikantoniolima))
+🔗 **GitHub:** [Maik Lima]([https://github.com/seuusuario](https://github.com/Maikantoniolima))
 
