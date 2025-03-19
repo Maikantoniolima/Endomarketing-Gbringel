@@ -1,7 +1,7 @@
 # Projeto de Endomarketing - Assinatura e Avatar em PHP
 
 ## 📌 Descrição
-Este projeto foi desenvolvido para automatizar a criação de assinaturas personalizadas e avatares para uso interno da empresa. Ele permite que os usuários editem seus avatares e gerem assinaturas padronizadas, garantindo uma identidade visual consistente.
+Este projeto foi desenvolvido para automatizar a criação de assinaturas personalizadas e avatares para uso interno da empresa. Ele permite que os usuários editem seus avatares e gerem assinaturas padronizadas, garantindo uma identidade visual consistente, de forma simples e sem necessidade de integração com banco de dados.
 
 ## 🚀 Funcionalidades
 - **Geração de assinaturas personalizadas** com nome, cargo, departamento e informações de contato.
@@ -10,9 +10,8 @@ Este projeto foi desenvolvido para automatizar a criação de assinaturas person
 - **Máscaras de telefone dinâmicas** usando jQuery.
 - **Seleção automática da identidade visual** com base na empresa do usuário.
 - **Interface simples e intuitiva** para facilitar a experiência do usuário.
-- **Integração com banco de dados** para armazenamento de informações dos usuários.
-- **Redirecionamento automático** em `index.html` para a página inicial do sistema.
-- **Página de manutenção** para exibição de avisos temporários.
+- **Gerenciamento de empresas e avatares** através da página de manutenção.
+- **Não requer banco de dados**, garantindo facilidade de implementação.
 
 ## 🏢 Empresas Suportadas
 O sistema gera assinaturas personalizadas com base na identidade visual de cada empresa:
@@ -37,12 +36,12 @@ O sistema gera assinaturas personalizadas com base na identidade visual de cada 
 📁 projeto-endomarketing
 │-- 📄 index.html  # Redireciona para a página inicial
 │-- 📄 avatar_editar.php  # Permite edição e personalização do avatar
-│-- 📄 manutencao.php  # Página de manutenção
+│-- 📄 manutencao.php  # Página para adicionar novas empresas, logos e avatares
 │-- 📄 assinatura.php  # Gerador de assinaturas de e-mail
 │-- 📄 config_empresas.php  # Lista de empresas e avatares
 │-- 📄 inicio.php  # Página inicial do sistema (não enviada, mas referenciada)
 │-- 📁 assets/logos  # Logos das empresas
-│-- 📁 assets/avatares  # Avatares dos usuários
+│-- 📁 assets/avatares  # Avatares das empresas
 ```
 
 ## 🚀 Como Usar
@@ -50,16 +49,16 @@ O sistema gera assinaturas personalizadas com base na identidade visual de cada 
    ```sh
    git clone https://github.com/seuusuario/projeto-endomarketing.git
    ```
-2. Certifique-se de que seu ambiente suporta PHP e MySQL.
-3. Suba os arquivos para o servidor e acesse `index.html`.
-4. Preencha os campos no `assinatura.php` para gerar sua assinatura personalizada.
-5. O sistema atribuirá a identidade visual da empresa escolhida automaticamente.
-6. Copie e cole a assinatura gerada no seu e-mail.
+2. Suba os arquivos para o servidor e acesse `index.html`.
+3. Preencha os campos no `assinatura.php` para gerar sua assinatura personalizada.
+4. O sistema atribuirá a identidade visual da empresa escolhida automaticamente.
+5. Copie e cole a assinatura gerada no seu e-mail.
+6. Para adicionar novas empresas, logos ou avatares, utilize `manutencao.php`.
 
 ## 🛠️ Manutenção
-Caso precise realizar ajustes, `manutencao.php` pode ser utilizado como página temporária para informar os usuários sobre atualizações no sistema.
+A página `manutencao.php` é utilizada para adicionar novas empresas, logos e avatares ao sistema, sem necessidade de integração com banco de dados.
 
 ---
-📧 **Autor:** Seu Nome  
-🔗 **GitHub:** [Seu Perfil](https://github.com/seuusuario)
+📧 **Autor:** Maik Lima 
+🔗 **GitHub:** [Seu Perfil]([https://github.com/seuusuario](https://github.com/Maikantoniolima))
 
