@@ -3,9 +3,6 @@
 ## 📌 Descrição
 Este projeto foi desenvolvido para automatizar a criação de assinaturas personalizadas e avatares para uso interno da empresa. Ele permite que os usuários editem seus avatares e gerem assinaturas padronizadas, garantindo uma identidade visual consistente.
 
-![Uploading image.png…]()
-
-
 ## 🚀 Funcionalidades
 - **Geração de assinaturas personalizadas** com nome, cargo, departamento e informações de contato.
 - **Edição de avatares** com opções de upload e personalização.
